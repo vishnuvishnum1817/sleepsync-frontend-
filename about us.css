@@ -1,0 +1,94 @@
+.pic img{
+    width: 500px;
+    height: 400px;
+}
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    font-family: 'poppins', sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.navbar-links {
+    display: flex;
+    column-gap: 20px;
+}
+.navbar-link a{
+    text-decoration: none;
+    color: #1D232c;
+
+}
+.navbar-link a:hover{
+    text-decoration: underline;
+    color: #1D232c;
+
+}
+
+.navbar-menu-toggle{
+    display: none;
+}
+.container{
+    position: relative;
+}
+.pic img{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    right: 80px;
+    top:50px;
+}
+
+.content{
+    position: relative;
+}
+.write h1{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    font-size: 100px;
+}
+
+.maincontent{
+    position: relative;
+}
+.maincontent p{
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    align-content: baseline;
+    justify-content: right;
+    font-size: 25px; 
+    width: 1300px;
+
+}
+.side-container{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .container{
+              display: none;}
+ img{
+    width: 300px;
+ }
+    .side-pic img{
+        width: 300px;
+    }
+    .side-container{
+        display: block;
+    }
+    
+}

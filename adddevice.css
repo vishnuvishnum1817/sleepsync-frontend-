@@ -1,0 +1,23 @@
+
+.container img{
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+.side-container{
+    display: none;
+}
+@media screen and (max-width:600px){
+    .container img{
+        display: none;
+
+    }
+    .side-container img{
+        width: 350px;
+        margin-top: 35%;
+        margin-left: 10%;
+    }
+    .side-container{
+        display: block;
+    }
+}

@@ -1,0 +1,99 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+
+body{
+    background-color: gray;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    margin-left: 15%;
+}
+
+#form{
+    width: 400px;
+    margin: 20%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+
+#form button{
+    background-color: red;
+    color: whitesmoke;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+
+}
+.input-group input:focus{
+    outline: none;
+}
+.input-group .error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input-group .success{
+    border-color: green;
+
+}
+.input-group .error{
+    border-color: red;
+    
+}
+#side-form{
+    display: none;
+}
+@media screen and (max-width:600px){
+    .container{
+        display: none;
+    }
+    .side-container{
+        margin-right: 95%;
+        margin-top: 10%;
+    }
+    #side-form{
+        width: 350px;
+    margin: 50%;
+    margin-top: 20%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+    }
+    #side-form button{
+        background-color: red;
+        color: whitesmoke;
+        border: 1px solid gray;
+        padding: 10px;
+        margin: 20px 0px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        width: 100%;
+    }
+    #side-form{
+        display: block;
+    }
+}

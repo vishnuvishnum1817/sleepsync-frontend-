@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color: gray;
+}
+
+.inputone{
+    padding-top: 30px;
+    padding-left: 200px;
+}
+
+.inputtwo{
+    padding-top: 30px;
+    padding-left: 200px;
+}
+
+.inputthree{
+    padding-top: 30px;
+    padding-left: 200px;
+}
+
+.timeadjustment{
+    padding-left: 30%;
+    background-color: gray;
+    
+}
+
+.time-content{
+    margin-right: 40%;
+    padding-top: 10%;
+    align-items: center;
+}
+#sub{
+    margin: 30px;
+    margin: 50px;
+}
+
+label{
+    font-size: 40px;
+}
+.tenmins{
+    font-size: 40px;
+}
+.inputone input[type='radio']{
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 2px solid black;
+}
+
+.inputtwo input[type='radio']{
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 2px solid black;
+}
+
+.inputthree input[type='radio']{
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 2px solid black;
+}
+button{
+    background-color:red;
+    color: whitesmoke;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 240px;
+    
+
+
+}
+.side-timeadjustment{
+    display: none;
+}
+@media screen and (max-width:600px){
+    .timeadjustment{
+        display: none;
+    }
+    
+    .side-timeadjustment{
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .side-inputone input[type='radio']{
+    
+        width: 25px;
+        height: 25px;
+        border-radius: 2px solid black;
+    }
+    
+    .side-inputtwo input[type='radio']{
+        
+        width: 25px;
+        height: 25px;
+        border-radius: 2px solid black;
+    }
+    
+    .side-inputthree input[type='radio']{
+        
+        width: 25px;
+        height: 25px;
+        border-radius: 2px solid black;
+    }
+    .side-timeadjustment{
+        display: block;
+    }
+}
